@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Civic Engagement Forum 4.0 2019`,
+    title: `Invoker Gatsby`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `kotakita.org - meridian.id - ongki 'vasilenka' herlambang`,
+    author: `Ongki 'vasilenka' Herlambang <ongki@herlambang.id | o@meridian.id>`,
+    // This line needed for SITEMAP GENERATOR
+    siteUrl: `https://www.website-url.com`,
   },
   plugins: [
     {
@@ -36,6 +38,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `UA-XXXXXXXX-X`,
+        head: true,
+        anonymize: true,
+      },
+    },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
