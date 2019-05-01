@@ -4,24 +4,26 @@
 
 # @invoker/gatsby
 
-  1. [@invoker/gatsby](#invokergatsby)
-  2. [Overview](#overview)
-  3. [Getting Started](#getting-started)
+  1. [Overview](#overview)
+  2. [Getting Started](#getting-started)
       - [Setup Your Development Environment](#setup-your-development-environment)
       - [Running Starter-kit on your machine](#running-starter-kit-on-your-machine)
-  4. [What's in The Box](#whats-in-the-box)
+  3. [What's in The Box](#whats-in-the-box)
       - [Sass with SCSS](#sass-with-scss)
-      - [@invoker/components](#invokercomponents)
+      - [Invoker Components](#invoker-components)
       - [CSS-Modules and classnames](#css-modules-and-classnames)
-      - [@invoker/styles](#invokerstyles)
+      - [Invoker Styles](#invoker-styles)
         - [Using the Styles](#using-the-styles)
-  5. [Plugins](#plugins)
-  6. [Learn Gatsby](#learn-gatsby)
+  4. [Plugins](#plugins)
+  5. [Learn Gatsby](#learn-gatsby)
 
 ## Overview
-> Starter-kit for building static site using [Gatsby](https://gatsbyjs.org)
 
-What's this & Why we build this?
+This is a starter kit repository for building static website using React.js and [Gatsby](https://gatsbyjs.org).
+
+While gatsby already provide a lot of awesome starters, we need something that **works for us** and **empower our workflows** by combining the awesome ecosystem of gatsby and what we already have.
+
+**P.S.** You're expected to have some knowledges about HTML, CSS, and Javascript, Git, and React.js
 
 ---
 
@@ -53,19 +55,19 @@ This starter-kit provides the following items out of the box
 ### Sass with SCSS
 We are using Sass with SCSS as the official styling language for every project at Meridian.id
 
-### @invoker/components
-Sets of UI primitives and components built with React.js also included locally with it's own styles file.
+### Invoker Components
+Sets of UI primitives and components built with React.js included locally with it's own styles file.
 
 ### CSS-Modules and classnames
-CSS-modules is a locally scoped styling for a better developer experiences. To use css-modules, you just need to change your scss filename into `filename.module.scss` and import it on top of your component file.
+**CSS-modules** is a locally scoped styling for a better developer experiences. To use css-modules, you just need to change your scss filename into `filename.module.scss` and import it on top of your component file.
 
-While 'classnames' (library) helps you combining two or more styles to your className attribute
+While **classnames** is a library to help you combining two or more styles inside a className props.
 
 ```scss
 // styling.module.scss
 
 .brand {
-  color: 'coral';
+  color: 'teal';
 }
 
 .heading {
@@ -86,7 +88,7 @@ import cx from 'classnames'
 
 ```
 
-### @invoker/styles
+### Invoker Styles
 An SCSS implementation of styling guidelines at Meridian.id included locally in the `src/assets/` for a better customization and flexibility.
 
 The styling consist of 3 main files, which are:
@@ -113,11 +115,27 @@ And to prevent the inconvenient of typing the import syntax manually, we provide
 },
 ```
 
+And then you can just type `impcss` in your style files then press `tab` to use the snippets. Voila!
+
 ---
 
 ## Plugins
 
 What're plugins included in this starter-kit?
+
+* **gatsby-plugin-google-analytics**
+* **gatsby-plugin-gtag**,
+* **gatsby-plugin-manifest**,
+* **gatsby-plugin-nprogress**,
+* **gatsby-plugin-offline**,
+* **gatsby-plugin-react-helmet**,
+* **gatsby-plugin-react-svg**,
+* **gatsby-plugin-sitemap**,
+* **gatsby-plugin-robots-txt**,
+* **gatsby-plugin-sass**,
+* **gatsby-plugin-sharp**,
+* **gatsby-source-filesystem**,
+* **gatsby-transformer-sharp**,
 
 ---
 
