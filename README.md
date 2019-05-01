@@ -1,4 +1,3 @@
-![alt text][title]
 ![alt text][cover-alt]
 [![alt text][mission]](http://meridian.id)
 
