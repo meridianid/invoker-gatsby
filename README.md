@@ -141,5 +141,5 @@ Complete documentation, guidelines, and tutorials are available at [Gatsby.js Of
 
 [title]: https://raw.githubusercontent.com/meridianid/invoker-gatsby/master/docs/title.png "Building website 101"
 [cover]: https://raw.githubusercontent.com/meridianid/invoker-gatsby/master/docs/cover.png "Building website 101"
-[cover-alt]: https://raw.githubusercontent.com/meridianid/invoker-gatsby/master/docs/cover-alts.png "Building website 101"
+[cover-alt]: https://raw.githubusercontent.com/meridianid/invoker-gatsby/master/docs/cover-alt.png "Building website 101"
 [mission]: https://raw.githubusercontent.com/meridianid/invoker-gatsby/master/docs/mission.png "Meridian.id"
