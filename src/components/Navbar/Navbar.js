@@ -40,7 +40,7 @@ const Navbar = ({ children, narrow, bleed, className, ...restProps }) => {
             [styles.secondaryMenu]: true,
           })}
           style={{paddingRight: '24px'}}>
-          <a href="https://github.com/meridianid/invoker-gatsby" rel="noopener norefferer" target="_blank" style={{marginRight: '24px'}}>
+          <a href="https://github.com/meridianid/invoker-gatsby" rel="noopener noreferrer" target="_blank" style={{marginRight: '24px'}}>
             <Github style={{width: '24px', color: '#999999' }}/>
           </a>
           <Button primary small>

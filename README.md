@@ -13,7 +13,6 @@
       - [Invoker Components](#invoker-components)
       - [CSS-Modules and classnames](#css-modules-and-classnames)
       - [Invoker Styles](#invoker-styles)
-        - [Using the Styles](#using-the-styles)
   4. [Plugins](#plugins)
   5. [Learn Gatsby](#learn-gatsby)
 
@@ -120,9 +119,6 @@ And then you can just type `impcss` in your style files then press `tab` to use 
 ---
 
 ## Plugins
-
-What're plugins included in this starter-kit?
-
 * **gatsby-plugin-google-analytics**
 * **gatsby-plugin-gtag**,
 * **gatsby-plugin-manifest**,
