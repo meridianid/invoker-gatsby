@@ -1,9 +1,9 @@
 {
-  "name": "cef-2019",
+  "name": "invoker-gatsby",
   "private": true,
-  "description": "Official website for Civic Engagement Forum 4.0 event",
+  "description": "Meridian.id official starter for gatsby website project",
   "version": "0.1.0",
-  "author": "Ongki 'vasilenka' Herlambang <meepomodeon@gmail.com>",
+  "author": "Ongki 'vasilenka' Herlambang <ongki@herlambang.id | o@meridian.id>",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.3.16",
@@ -49,9 +49,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/meridianid/invoker-gatsby"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/meridianid/invoker-gatsby/issues"
   }
 }
