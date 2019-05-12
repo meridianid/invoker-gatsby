@@ -59,7 +59,7 @@ const Text = ({
         [styles.center]: center,
         [styles.truncate]: truncate,
         [styles.breakWord]: breakWord,
-        [className]: className
+        [className]: className,
       })}
     >
       <span

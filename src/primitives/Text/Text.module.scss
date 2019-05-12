@@ -1,7 +1,7 @@
-@import 'invoker-tokens/index.scss';
+@import 'src/tokens';
 
 .root {
-  font-family: $font-primary;
+  // font-family: $font-primary;
 }
 
 // Display Text
@@ -27,63 +27,63 @@
 
 // Heading Text
 .heading1 {
-  composes: root;
+  // composes: root;
   font-size: $heading-1;
   line-height: 52px;
   letter-spacing: -1.44px;
   font-weight: $bold;
 }
 .heading2 {
-  composes: root;
+  // composes: root;
   font-size: $heading-2;
   line-height: 36px;
   letter-spacing: -1.2px;
   font-weight: $bold;
 }
 .heading3 {
-  composes: root;
+  // composes: root;
   font-size: $heading-3;
   line-height: 30px;
   letter-spacing: -0.8px;
   font-weight: $bold;
 }
 .heading4 {
-  composes: root;
+  // composes: root;
   font-size: $heading-4;
   line-height: 26px;
   letter-spacing: -0.8px;
   font-weight: $bold;
 }
 .heading4Alt {
-  composes: root;
+  // composes: root;
   font-size: $heading-4;
   line-height: 26px;
   letter-spacing: -0.8px;
   font-weight: $medium;
 }
 .heading5 {
-  composes: root;
+  // composes: root;
   font-size: $heading-5;
   line-height: 22px;
   letter-spacing: -0.24px;
   font-weight: $medium;
 }
 .heading5Alt {
-  composes: root;
+  // composes: root;
   font-size: $heading-5;
   line-height: 22px;
   letter-spacing: -0.24px;
   font-weight: $bold;
 }
 .heading6 {
-  composes: root;
+  // composes: root;
   font-size: $heading-6;
   line-height: 18px;
   letter-spacing: -0.24px;
   font-weight: $medium;
 }
 .heading6Alt {
-  composes: root;
+  // composes: root;
   font-size: $heading-6;
   line-height: 18px;
   letter-spacing: -0.24px;
@@ -92,19 +92,19 @@
 
 // Body Text
 .large {
-  composes: root;
+  // composes: root;
   font-size: $body-3;
   line-height: 26px;
   font-weight: $regular;
 }
 .medium {
-  composes: root;
+  // composes: root;
   font-size: $body-2;
   line-height: 22px;
   font-weight: $regular;
 }
 .small {
-  composes: root;
+  // composes: root;
   font-size: $body-1;
   line-height: 18px;
   font-weight: $regular;
@@ -112,7 +112,7 @@
 
 // Captions
 .captionBold {
-  composes: root;
+  // composes: root;
   display: inline-block;
   font-size: $caption-1;
   font-weight: $medium;
@@ -120,7 +120,7 @@
   line-height: 16px;
 }
 .caption {
-  composes: root;
+  // composes: root;
   display: inline-block;
   font-size: $caption-1;
   font-weight: $regular;
@@ -129,7 +129,7 @@
 
 // Label
 .label {
-  composes: root;
+  // composes: root;
   color: $dark-alpha-70;
   font-weight: 500;
   margin: $space-stack-s;

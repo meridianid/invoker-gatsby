@@ -32,7 +32,7 @@ const NavbarMenu = ({
         })}
         {...restProps}
       >
-        <Text heading6 className={styles.item}>
+        <Text heading6 className={styles.item} style={{lineHeight: '16px'}}>
           {children}
         </Text>
       </Link>
