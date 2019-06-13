@@ -17,12 +17,14 @@ const IndexPage = () => (
         flexDirection: 'column',
         justifyContent: 'center',
         height: `calc(100vh - 64px)`,
-        maxHeight: '100vh',
+        // maxHeight: '100vh',
+        paddingBottom: 'env()'
       }}>
-      <div style={{ width: `128px`, marginBottom: `1.45rem` }}>
+      <div style={{ width: `48px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-      <Text display2 component="h1">Invoker Gatsby</Text>
+      <Text heading3 component="h1" style={{marginBottom: '12px'}}>Invoker Gatsby</Text>
+      <Text medium component="p" style={{maxWidth: '80%', textAlign: 'center'}}>Let's have fun building something awesome!</Text>
     </Container>
   </Default>
 )

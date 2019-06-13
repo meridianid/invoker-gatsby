@@ -7,6 +7,8 @@ import 'invoker-layout/grid.module.scss'
 import './../../assets/fonts/fonts'
 
 import Navbar from "./../../components/Navbar/Navbar"
+import ActionBar from "./../../components/ActionBar/ActionBar"
+import ActionMenu from "./../../components/ActionMenu/ActionMenu"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -23,6 +25,9 @@ const Layout = ({ children }) => (
       <>
         <Navbar bleed/>
         {children}
+        <ActionBar >
+          <ActionMenu to="/">Home</ActionMenu>
+        </ActionBar>
       </>
     )}
   />
