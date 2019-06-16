@@ -42,7 +42,7 @@ module.exports = {
         background_color: `#008380`,
         theme_color: `#008380`,
         display: `minimal-ui`,
-        icon: `src/assets/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/mid.png`, // This path is relative to the root of the site.
       },
     },
     // Analytics using the new GTAG
