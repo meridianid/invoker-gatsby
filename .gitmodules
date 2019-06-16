@@ -1,4 +1,0 @@
-[submodule "src/assets/sass"]
-	path = src/assets/sass
-	url = git@github.com:meridianid/template-sass.git
-	branch = master
