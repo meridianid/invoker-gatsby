@@ -53,6 +53,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "eslint-config-react-app": "^4.0.1",
     "gh-pages": "^2.0.1",
     "husky": "^2.4.1",
     "lint-staged": "^8.2.1",
