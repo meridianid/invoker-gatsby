@@ -5,7 +5,7 @@ module.exports = {
 
   siteMetadata: {
     title: `@invoker/gatsby`,
-    description: `Kick off your great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `This is an opiniated starter for gatsby projects built by Meridian.id. This starter ships with the main Gatsby configuration files you might need.`,
     author: `Ongki 'vasilenka' Herlambang <ongki@herlambang.id | o@meridian.id>`,
 
     // This line needed for SITEMAP GENERATOR and ROBOT.txt
