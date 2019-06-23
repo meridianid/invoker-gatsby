@@ -4,7 +4,7 @@ module.exports = {
   // pathPrefix: "/reponame",
 
   siteMetadata: {
-    title: `@invoker/gatsby`,
+    title: `invoker-gatsby`,
     description: `This is an opiniated starter for gatsby projects built by Meridian.id. This starter ships with the main Gatsby configuration files you might need.`,
     author: `Ongki 'vasilenka' Herlambang <ongki@herlambang.id | o@meridian.id>`,
 
@@ -46,7 +46,7 @@ module.exports = {
       },
     },
 
-    // Prismic
+    // 📑PRISMIC
     // See: https://github.com/angeloashmore/gatsby-source-prismic
     {
       resolve: 'gatsby-source-prismic',
