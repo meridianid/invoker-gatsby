@@ -56,6 +56,7 @@ module.exports = {
 
         // An API access token to your prismic.io repository. This is required.
         // The token will be listed under "Permanent access tokens".
+        // ⚠️WARNING! This is just for dummy purpose, ideally you want to store this data on some .env files
         accessToken: 'MC5YUS1aWFJFQUFOd0FjLUxq.77-9CX3vv73vv71w77-977-9Y2jvv73vv73vv71277-977-9F21477-977-9K1MwRO-_ve-_vS8S77-9KE8',
 
         // Set a link resolver function used to process links in your content.
