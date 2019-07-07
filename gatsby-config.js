@@ -13,6 +13,12 @@ module.exports = {
 
   },
   plugins: [
+    {
+      resolve: `gatsby-mdx`,
+      options: {
+
+      },
+    },
     // Add SVG inline
     {
       resolve: 'gatsby-plugin-react-svg',
