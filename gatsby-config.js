@@ -35,6 +35,9 @@ module.exports = {
      * */
     {
       resolve: `gatsby-plugin-mdx`,
+      options: {
+
+      }
     },
 
     // Add SVG inline
