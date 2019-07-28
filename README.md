@@ -29,19 +29,20 @@ While gatsby already provide a lot of awesome starters, we need something that *
 
 ### Setup Your Development Environment
 Before you can start using this starter kit. Make sure you have the following software tools installed on your machine:
-1. [Node.js](https://nodejs.org), at least version 10.xx
-2. [Git](https://git-scm.com/)
-3. [Gatsby CLI](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli), run `npm install -g gatsby-cli` to install it on your machine
 
-### Running Starter-kit on your machine
-To download and run the starter kit on your machine, run the following commands:
+  1. [Node.js](https://nodejs.org), at least version 10.xx
+  2. [mid-tinker-cli](https://github.com/meridianid/tinker-cli), run `npm install -g mid-tinker-cli` to install it on your machine. This starter work best when scaffolded using tinker-cli.
+1. [Git](https://git-scm.com/)
+2. [Gatsby CLI](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli), run `npm install -g gatsby-cli` to install it on your machine
+
+### Usage
+
+To start a new gatsby project using this starter with `tinker-cli`, on your terminal just run
 
 ```shell
-git clone https://github.com/meridianid/invoker-gatsby.git YOUR-PROJECT-NAME
+tinker gatsby YOUR-PROJECT-NAME
 cd YOUR-PROJECT-NAME
-git remote remove origin
-npm install
-npm run start
+npm start
 ```
 
 ---
