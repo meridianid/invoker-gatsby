@@ -4,9 +4,7 @@
 # @invoker/gatsby
 
   1. [Overview](#overview)
-  2. [Getting Started](#getting-started)
-      - [Setup Your Development Environment](#setup-your-development-environment)
-      - [Running Starter-kit on your machine](#running-starter-kit-on-your-machine)
+  2. [Usage](#usage)
   3. [What's in The Box](#whats-in-the-box)
       - [Sass with SCSS](#sass-with-scss)
       - [Invoker Components](#invoker-components)
@@ -21,21 +19,16 @@ This is a starter kit repository for building static website using React.js and 
 
 While gatsby already provide a lot of awesome starters, we need something that **works for us** and **empower our workflows** by combining the awesome ecosystem of gatsby and what we already have.
 
-**P.S.** You're expected to have some knowledges about HTML, CSS, and Javascript, Git, and React.js
+**P.S.** You're expected to have some knowledges about HTML, CSS, Javascript and React.js. But if you don't, just go anyway, No one can't stop you from what you're about to do!
 
----
+## Usage
 
-## Getting Started
-
-### Setup Your Development Environment
 Before you can start using this starter kit. Make sure you have the following software tools installed on your machine:
 
   1. [Node.js](https://nodejs.org), at least version 10.xx
   2. [mid-tinker-cli](https://github.com/meridianid/tinker-cli), run `npm install -g mid-tinker-cli` to install it on your machine. This starter work best when scaffolded using tinker-cli.
 1. [Git](https://git-scm.com/)
 2. [Gatsby CLI](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli), run `npm install -g gatsby-cli` to install it on your machine
-
-### Usage
 
 To start a new gatsby project using this starter with `tinker-cli`, on your terminal just run
 
@@ -44,8 +37,6 @@ tinker gatsby YOUR-PROJECT-NAME
 cd YOUR-PROJECT-NAME
 npm start
 ```
-
----
 
 ## What's in The Box
 
@@ -116,24 +107,21 @@ And to prevent the inconvenient of typing the import syntax manually, we provide
 
 And then you can just type `impcss` in your style files then press `tab` to use the snippets. Voila!
 
----
-
 ## Plugins
-* **gatsby-plugin-google-analytics**
-* **gatsby-plugin-gtag**,
+* **gatsby-source-prismic-graphql**, -- you can use Prismic out of the box, with sample setup included.
+* **gatsby-plugin-mdx**, -- or if you wanna go a little techie, you can write your website in MDX. It's super awesome.
+* **gatsby-plugin-gtag**, -- the new google gtag, replacing the deprecated analytics code.
+* **gatsby-plugin-nprogress**, -- nprogress for the loading bar.
+* **gatsby-plugin-react-svg**, -- inline your SVG for better customization and performance. Just name your file `*.inline.svg` and you are good to go.
 * **gatsby-plugin-manifest**,
-* **gatsby-plugin-nprogress**,
-* **gatsby-plugin-offline**,
-* **gatsby-plugin-react-helmet**,
-* **gatsby-plugin-react-svg**,
-* **gatsby-plugin-sitemap**,
-* **gatsby-plugin-robots-txt**,
-* **gatsby-plugin-sass**,
-* **gatsby-plugin-sharp**,
-* **gatsby-source-filesystem**,
-* **gatsby-transformer-sharp**,
-
----
+* **gatsby-plugin-offline**, -- add offline capabilities to your website.
+* **gatsby-plugin-react-helmet**, -- help you add custom tag to your html `<head>`. You get some meta, you get some SEO, everyone happy!
+* **gatsby-plugin-sitemap**, -- generate `sitemap.xml` of your website. Much SEO!
+* **gatsby-plugin-robots-txt**, -- generate `robot.txt` of your website. Control search engine crawler on what to tracks.
+* **gatsby-plugin-sass**, -- use Sass for your styling. Variables, Mixins, etc. much power!
+* **gatsby-plugin-sharp**, -- manipulate your images, without having to open any graphic tools like Photoshop of GIMP. Combined with `gatsby-image` and you got yourself the fastest website ever!
+* **gatsby-transformer-sharp**, -- helper for `gatsby-plugin-sharp`
+* **gatsby-source-filesystem**, -- make your local filesystem available for GraphQL query.
 
 ## Learn Gatsby
 
