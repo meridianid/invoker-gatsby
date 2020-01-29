@@ -36,7 +36,7 @@
     "classnames": "^2.2.6",
     "date-fns": "^2.2.1",
     "framer-motion": "^1.6.7",
-    "gatsby": "^2.15.16",
+    "gatsby": "^2.19.10",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-google-analytics": "^2.1.16",
     "gatsby-plugin-gtag": "^1.0.11",
