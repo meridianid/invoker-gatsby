@@ -57,7 +57,7 @@
     "invoker-base": "^1.0.6",
     "invoker-layout": "^1.0.1",
     "invoker-tokens": "^1.0.13",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "node-sass": "^4.11.0",
     "prism-react-renderer": "^0.1.7",
     "prismic-reactjs": "^1.0.0",
